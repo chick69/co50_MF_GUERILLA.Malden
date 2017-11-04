@@ -20,6 +20,11 @@ For questions and support, please visit our [forums](http://forums.a3wasteland.c
 * Torndeco
 * [404] Del1te
 
+#### Team MF developers
+* [MF] Chick69
+* [MF] Yanoukovytsch
+
+
 A list of other contributors can be found in the "Credits" section from the in-game map menu, or near the bottom of `briefing.sqf`
 
 ---
