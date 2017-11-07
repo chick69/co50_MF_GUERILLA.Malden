@@ -70,7 +70,7 @@ private ["_flatPos","_accepted","_position","_enemiesArray","_fuzzyPos","_x","_b
 
 //-------------------- SPAWN FORCE PROTECTION
 
-	 null = [["sideCircle"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,EAST,TRUE]] call EOS_Spawn;	
+	 null = [["sideCircle"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,Resistance,TRUE]] call EOS_Spawn;	
 	
 	
 //-------------------- SPAWN OBJECTIVE (okay okay, setPos not spawn/create)

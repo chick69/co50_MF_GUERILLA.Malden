@@ -85,7 +85,7 @@ _c4Message = ["Les charges sont posées, 15 secondes avant explosion!","Dégagez
 	
 //-------------------- SPAWN FORCE PROTECTION
 
-	 null = [["sideCircle_1"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,EAST,TRUE]] call EOS_Spawn;	
+	 null = [["sideCircle_1"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,Resistance,EAST,TRUE]] call EOS_Spawn;	
 	
 	
 //-------------------- [ CORE LOOPS ] ------------------------ [ CORE LOOPS ]

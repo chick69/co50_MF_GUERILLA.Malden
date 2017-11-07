@@ -22,7 +22,7 @@
 	1 = All units can revive
 	2 = Same as 1 but a medikit is required to revive
 */
-#define FAR_ReviveMode 1
+#define FAR_ReviveMode 0
 
 // cutText layer
 #define FAR_cutTextLayer 7890

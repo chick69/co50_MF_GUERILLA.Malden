@@ -8,8 +8,8 @@ private "_player";
 _player = _this;
 
 _player addRating 1e11;
-_player setUnitTrait ["medic",true];
-_player setUnitTrait ["engineer",true];
+//_player setUnitTrait ["medic",true];
+//_player setUnitTrait ["engineer",true];
 
 
 [objNull, _player] call mf_player_actions_refresh;

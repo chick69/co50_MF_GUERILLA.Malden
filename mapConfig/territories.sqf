@@ -31,5 +31,9 @@
 	["TERRITORY_UN_OUTPOST", "United Nations Outpost", 1000, "MILITARY"],
 	["TERRITORY_UN_COMMAND", "United Nations Command Post", 1000, "MILITARY"],
 	["TERRITORY_PEGASUS_AIRFIELD", "Pegasus Airfield", 1000, "AIRBASE"],
-	["TERRITORY_FORTRESS_ISLAND", "Fortress Island", 5000, "MILITARY"]
+	["TERRITORY_FORTRESS_ISLAND", "Fortress Island", 5000, "MILITARY"],
+	["TERRITORY_ROADBLOCK_1", "Roadblock 1", 1000, "TOWN"],
+	["TERRITORY_ROADBLOCK_2", "Roadblock 2", 1000, "TOWN"],
+	["TERRITORY_ROADBLOCK_3", "Roadblock 3", 1000, "TOWN"],
+	["TERRITORY_ROADBLOCK_4", "Roadblock 4", 1000, "TOWN"]
 ]

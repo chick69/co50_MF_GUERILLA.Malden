@@ -196,8 +196,8 @@ _wp2 setWaypointType "MOVE";
 	
 //-------------------- SPAWN FORCE PROTECTION
 
-	null = [["sideCircle_1"],[1,1],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,EAST,TRUE]] call EOS_Spawn;	
-	null = [["sideCircle_2"],[1,1],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,EAST,TRUE]] call EOS_Spawn;
+	null = [["sideCircle_1"],[1,1],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,Resistance,TRUE]] call EOS_Spawn;	
+	null = [["sideCircle_2"],[1,1],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,Resistance,TRUE]] call EOS_Spawn;
 	
 //-------------------- [ CORE LOOPS ] ------------------------ [ CORE LOOPS ]
 

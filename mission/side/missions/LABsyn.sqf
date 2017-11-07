@@ -76,7 +76,7 @@ _c4Message = ["Les charges sont posées, 15 secondes avant explosion du laborato
 
 //-------------------- SPAWN FORCE PROTECTION
 
-	 null = [["sideCircle"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,EAST,TRUE]] call EOS_Spawn;	
+	 null = [["sideCircle"],[1,3],[5,1],[0,0],[0],[2],[0,0],[7,1,1000,Resistance,TRUE]] call EOS_Spawn;	
 	
 	
 	

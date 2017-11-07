@@ -56,8 +56,8 @@ _tempArray=[];
 	_stPool=	[];
 	_shipPool=	["C_Boat_Civil_01_F","C_Boat_Civil_01_rescue_F","C_Boat_Civil_04_F","C_Rubberboat"];
 	_diverPool=	[];
-	_crewPool=	["C_man_1","C_man_1_1_F","C_man_1_2_F","C_man_1_3_F","C_man_hunter_1_F","C_man_p_beggar_F","C_man_p_beggar_F_afro","C_man_p_shorts_1_F","C_man_polo_1_F","C_man_polo_2_F","C_man_polo_3_F","C_man_polo_4_F","C_man_polo_5_F","C_man_polo_6_F","C_man_shorts_1_F","C_man_shorts_2_F","C_man_shorts_3_F","C_man_shorts_4_F","C_man_w_worker_F"];
-	_heliCrew=	["C_man_1","C_man_1_1_F","C_man_1_2_F","C_man_1_3_F","C_man_hunter_1_F","C_man_p_beggar_F","C_man_p_beggar_F_afro","C_man_p_shorts_1_F","C_man_polo_1_F","C_man_polo_2_F","C_man_polo_3_F","C_man_polo_4_F","C_man_polo_5_F","C_man_polo_6_F","C_man_shorts_1_F","C_man_shorts_2_F","C_man_shorts_3_F","C_man_shorts_4_F","C_man_w_worker_F"];
+	_crewPool=	[];
+	_heliCrew=	[];
 };
 // WEST FIA FACTION
 	if (_faction==4) then {
@@ -89,34 +89,33 @@ _tempArray=[];
 };
 // EAST FIA FACTION 	
 	if (_faction==6) then {
-	_InfPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F","O_G_Sharpshooter_F"];	
+	_InfPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F"];	
 	_ArmPool=	[];
-	_MotPool=	["O_G_Offroad_01_F","O_G_Offroad_01_armed_F","O_G_Van_02_transport_F"];
+	_MotPool=	["O_G_Offroad_01_F","O_G_Offroad_01_armed_F"];
 	_ACHPool=	[];
-	_CHPool=	["I_Heli_Transport_02_F","B_Heli_Light_02_unarmed_F"];
+	_CHPool=	[];
 	_uavPool=	[];
 	_stPool=	["O_HMG_01_high_F","O_HMG_01_F","O_static_AA_F","O_static_AT_F"];
 	_shipPool=	["O_G_Boat_Transport_01_F"];
 	_diverPool=	[];
-	_crewPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F","O_G_Sharpshooter_F"];
-	_heliCrew=	["I_helicrew_F","I_helipilot_F"];
+	_crewPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F"];
+	_heliCrew=	[];
 };
 	
 // SYNDICATE 	
 	if (_faction==7) then {
-	_InfPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F","O_G_Sharpshooter_F"];	
+	_InfPool=	["I_C_Soldier_Para_1_F","I_C_Soldier_Para_2_F","I_C_Soldier_Para_3_F","I_C_Soldier_Para_4_F","I_C_Soldier_Para_5_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_8_F","I_C_Soldier_Bandit_1_F","I_C_Soldier_Bandit_2_F","I_C_Soldier_Bandit_3_F","I_C_Soldier_Bandit_4_F","I_C_Soldier_Bandit_5_F","I_C_Soldier_Bandit_6_F","I_C_Soldier_Bandit_7_F","I_C_Soldier_Bandit_8_F"];	
 	_ArmPool=	[];
-	_MotPool=	["O_G_Offroad_01_F","O_G_Offroad_01_armed_F","O_G_Van_02_transport_F"];
+	_MotPool=	["I_G_Offroad_01_F","I_G_Offroad_01_armed_F"];
 	_ACHPool=	[];
-	_CHPool=	["O_Heli_Light_02_F","O_Heli_Light_02_v2_F"];
+	_CHPool=	[];
 	_uavPool=	[];
 	_stPool=	["I_HMG_01_F","I_HMG_01_high_F","I_static_AA_F","I_static_AT_F"];
-	_shipPool=	["O_G_Boat_Transport_01_F"];
+	_shipPool=	[];
 	_diverPool=	[];
-	_crewPool=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F","O_G_Sharpshooter_F"];
-	_heliCrew=	["O_G_engineer_F","O_G_medic_F","O_G_officer_F","O_G_Soldier_A_F","O_G_Soldier_AR_F","O_G_Soldier_exp_F","O_G_Soldier_F","O_G_Soldier_GL_F","O_G_Soldier_LAT_F","O_G_Soldier_lite_F","O_G_Soldier_M_F","O_G_Soldier_SL_F","O_G_Soldier_TL_F","O_G_Sharpshooter_F"]
+	_crewPool=	["I_C_Soldier_Para_1_F","I_C_Soldier_Para_2_F","I_C_Soldier_Para_3_F","I_C_Soldier_Para_4_F","I_C_Soldier_Para_5_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_8_F","I_C_Soldier_Bandit_1_F","I_C_Soldier_Bandit_2_F","I_C_Soldier_Bandit_3_F","I_C_Soldier_Bandit_4_F","I_C_Soldier_Bandit_5_F","I_C_Soldier_Bandit_6_F","I_C_Soldier_Bandit_7_F","I_C_Soldier_Bandit_8_F"];
+	_heliCrew=	["I_C_Soldier_Para_1_F","I_C_Soldier_Para_2_F","I_C_Soldier_Para_3_F","I_C_Soldier_Para_4_F","I_C_Soldier_Para_5_F","I_C_Soldier_Para_6_F","I_C_Soldier_Para_7_F","I_C_Soldier_Para_8_F","I_C_Soldier_Bandit_1_F","I_C_Soldier_Bandit_2_F","I_C_Soldier_Bandit_3_F","I_C_Soldier_Bandit_4_F","I_C_Soldier_Bandit_5_F","I_C_Soldier_Bandit_6_F","I_C_Soldier_Bandit_7_F","I_C_Soldier_Bandit_8_F"];
 };
-	
 // EAST CSAT SF FACTION
 	if (_faction==8) then {
 	_InfPool=	["O_V_Soldier_TL_ghex_F","O_V_Soldier_Exp_ghex_F","O_V_Soldier_Medic_ghex_F","O_V_Soldier_M_ghex_F","O_V_Soldier_LAT_ghex_F","O_V_Soldier_JTAC_ghex_F","O_V_Soldier_ghex_F"];		
@@ -131,7 +130,6 @@ _tempArray=[];
 	_crewPool=	["O_V_Soldier_TL_ghex_F","O_V_Soldier_Exp_ghex_F","O_V_Soldier_Medic_ghex_F","O_V_Soldier_M_ghex_F","O_V_Soldier_LAT_ghex_F","O_V_Soldier_JTAC_ghex_F","O_V_Soldier_ghex_F"];
 	_heliCrew=	["O_helipilot_F"];
 };	
-	
 ////////////////////////////////////////////////////////////////////////////////////////
 if (_type==0) then {
 		for "_i" from 0 to 5 do{
