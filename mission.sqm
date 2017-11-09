@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=59;
+		nextID=63;
 	};
 	class Camera
 	{
-		pos[]={9743.3896,18.236601,5905.9639};
-		dir[]={-0.75673765,-0.20587377,-0.62058449};
-		up[]={-0.15923202,0.97856855,-0.13058348};
-		aside[]={-0.63416576,6.4326741e-007,0.77329445};
+		pos[]={9719.6738,88.250999,5971.9189};
+		dir[]={0.033053692,-0.7031002,-0.71045953};
+		up[]={0.032676324,0.71109152,-0.70233923};
+		aside[]={-0.99900669,-8.4741259e-008,-0.046478234};
 	};
 };
 binarizationWanted=0;
@@ -326,16 +326,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -418,16 +408,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -510,16 +490,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -602,16 +572,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -694,16 +654,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -799,16 +749,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -824,6 +764,7 @@ class Mission
 					};
 					id=881;
 					type="B_Survivor_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -891,16 +832,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -916,6 +847,7 @@ class Mission
 					};
 					id=882;
 					type="B_Survivor_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -983,16 +915,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1008,6 +930,7 @@ class Mission
 					};
 					id=883;
 					type="B_Survivor_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1075,16 +998,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1167,16 +1080,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1240,6 +1143,7 @@ class Mission
 			{
 			};
 			id=5;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item2
 		{
@@ -1272,16 +1176,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1297,6 +1191,7 @@ class Mission
 					};
 					id=885;
 					type="B_Survivor_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1364,16 +1259,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1389,7 +1274,7 @@ class Mission
 					};
 					id=886;
 					type="B_Survivor_F";
-					atlOffset=-1.9073486e-006;
+					atlOffset=-2.8610229e-006;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1457,16 +1342,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1482,6 +1357,7 @@ class Mission
 					};
 					id=887;
 					type="B_Survivor_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1549,16 +1425,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1642,16 +1508,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1667,6 +1523,7 @@ class Mission
 					};
 					id=1383;
 					type="B_engineer_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1715,6 +1572,7 @@ class Mission
 			{
 			};
 			id=10;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item3
 		{
@@ -1742,26 +1600,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1839,26 +1682,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -1936,26 +1764,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2038,16 +1851,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2130,16 +1933,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2235,16 +2028,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2327,16 +2110,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2419,16 +2192,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2511,16 +2274,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2604,16 +2357,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2696,16 +2439,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2801,16 +2534,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2893,16 +2616,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -2985,16 +2698,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3077,16 +2780,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3169,16 +2862,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3274,16 +2957,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3366,16 +3039,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3458,16 +3121,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3550,16 +3203,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3642,16 +3285,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3747,16 +3380,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3839,16 +3462,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -3931,16 +3544,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4023,16 +3626,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4115,16 +3708,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4220,16 +3803,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4312,16 +3885,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4404,16 +3967,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4496,16 +4049,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4521,7 +4064,7 @@ class Mission
 					};
 					id=1385;
 					type="B_medic_F";
-					atlOffset=0.0079879761;
+					atlOffset=0.0079898834;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4589,16 +4132,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4689,26 +4222,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4786,26 +4304,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4883,26 +4386,11 @@ class Mission
 							{
 								name="hgun_ACPC2_F";
 								flashlight="acc_flashlight_pistol";
-								class primaryMuzzleMag
-								{
-									name="9Rnd_45ACP_Mag";
-									ammoLeft=9;
-								};
 							};
 							class uniform
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -4986,16 +4474,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -5079,16 +4557,6 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="Chemlight_green";
-										count=1;
-										ammoLeft=1;
-									};
-								};
 								class ItemCargo
 								{
 									items=1;
@@ -5388,7 +4856,7 @@ class Mission
 						angles[]={0,3.2976177,0};
 					};
 					side="Civilian";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						init="[this] spawn A3W_fnc_setupStoreNPC";
@@ -5396,12 +4864,14 @@ class Mission
 					};
 					id=195;
 					type="C_man_1_1_F";
+					atlOffset=0.44902039;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=194;
+			atlOffset=0.44902039;
 		};
 		class Item19
 		{
@@ -9452,13 +8922,13 @@ class Mission
 				angles[]={0,0.78047103,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="[this] call A3W_fnc_setupMissionATM";
 			};
 			id=539;
 			type="Land_ATM_01_malden_F";
+			atlOffset=3.1339417;
 		};
 		class Item331
 		{

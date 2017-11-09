@@ -31,6 +31,7 @@ private ["_cargoPool","_emptySeats","_vehicle","_debug","_grp","_grpSize"];
 						for "_x" from 1 to _grpSize do {					
 								_unit=_cargoPool select (floor(random(count _cargoPool)));
 								_unit=_unit createUnit [GETPOS _vehicle, _grp];
+								_unit addEventHandler ["Killed", server_playerDied];
 								};
 								
 								

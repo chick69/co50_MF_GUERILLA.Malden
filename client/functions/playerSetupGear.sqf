@@ -7,9 +7,8 @@
 private ["_player", "_uniform", "_vest", "_headgear", "_goggles"];
 _player = _this;
 
-_player forceAddUniform "U_B_CombatUniform_mcam_tshirt";
+_player forceAddUniform "U_I_G_resistanceLeader_F";
 _player addItemToUniform "FirstAidKit";
-_player addItemToUniform "Chemlight_green";
 _player addWeapon "hgun_ACPC2_F";
 _player addMagazine "9Rnd_45ACP_Mag";
 _player addMagazine "9Rnd_45ACP_Mag";
@@ -20,3 +19,4 @@ if (_player == player) then
 	thirstLevel = 100;
 	hungerLevel = 100;
 };
+
