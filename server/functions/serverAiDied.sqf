@@ -6,15 +6,37 @@
 
 if (!isServer) exitWith {};
 
-params ["_unit", "_killer", "_instigator"];
+params ["_unit", "_killer", "_instigator","_money","_m"];
 
 private _presumedKiller = effectiveCommander _killer;
 private _killerVehicle = vehicle _killer;
+
 if ((floor random 100) > 70) then {
 	_m = createVehicle ["Land_Money_F", [_unit, [0,1,0]] call relativePos, [], 0, "CAN_COLLIDE"];
 	_m setDir random 360;
-	_m setVariable ["cmoney", 20, true];
+	_money = floor random 200;
+	_m setVariable ["cmoney", _money, true];
 	_m setVariable ["owner", "world", true];
+	_m call A3W_fnc_setItemCleanup;
+};
+if ((floor random 100) > 90) then {
+	_m = createVehicle ["Land_Can_V3_F", [_unit, [0,1,0]] call relativePos, [], 0, "CAN_COLLIDE"];
+	_m setDir random 360;
+	_m setVariable["mf_item_id", "energydrink", true];
+	_m call A3W_fnc_setItemCleanup;
+};
+
+if ((floor random 100) > 80) then {
+	_m = createVehicle ["Land_BakedBeans_F", [_unit, [0,1,0]] call relativePos, [], 0, "CAN_COLLIDE"];
+	_m setDir random 360;
+	_m setVariable["mf_item_id", "cannedfood", true];
+	_m call A3W_fnc_setItemCleanup;
+};
+
+if ((floor random 100) > 80) then {
+	_m = createVehicle ["Land_BottlePlastic_V2_F", [_unit, [0,1,0]] call relativePos, [], 0, "CAN_COLLIDE"];
+	_m setDir random 360;
+	_m setVariable["mf_item_id", "water", true];
 	_m call A3W_fnc_setItemCleanup;
 };
 

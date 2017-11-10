@@ -23,7 +23,8 @@ civilianVehicles =
 //Light Military Vehicle List - Random Spawns
 lightMilitaryVehicles =
 [
-	["I_G_Offroad_01_F", "I_G_Offroad_01_armed_F"]
+	"C_Offroad_02_unarmed_F",
+	["C_Offroad_01_F", "I_G_Offroad_01_armed_F"]
 ];
 
 //Medium Military Vehicle List - Random Spawns
@@ -39,8 +40,7 @@ waterVehicles =
 [
 	"C_Boat_Civil_01_F",
 	"C_Boat_Civil_01_F",
-	["C_Boat_Civil_01_police_F", "C_Boat_Civil_01_rescue_F"],
-	["B_Boat_Armed_01_minigun_F", "O_Boat_Armed_01_hmg_F", "I_Boat_Armed_01_minigun_F"]
+	["C_Boat_Civil_01_police_F", "C_Boat_Civil_01_rescue_F"]
 ];
 
 //Object List - Random Spawns.
