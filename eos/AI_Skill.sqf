@@ -2,7 +2,7 @@
 _InfskillSet = [
 0.25,        // aimingAccuracy
 0.45,        // aimingShake
-0.6,        // aimingSpeed
+0.5,        // aimingSpeed
 0.4,         // spotDistance
 0.4,        // spotTime
 1,        // courage

@@ -77,6 +77,7 @@ if(isServer) then
 	};
 
 // Spawn Survival
+/* ---------------------------
 	if (_type == 3) then
 	{
 		_loot= SurvivalLoot call bis_fnc_selectRandom;
@@ -109,6 +110,8 @@ if(isServer) then
 			_debug setMarkerText _txt;
 		};
 	};
+	
+---------------------------------------- */	
 
 // Spawn RepairLoot
 	if (_type == 4) then

@@ -15,7 +15,7 @@ _unit = _this;
 if (["A3W_missionsDifficulty"] call isConfigOn) then
 {
 	_skill = 0.5; // Default skill for ARMA3 is 0.5
-	_accuracy = 1; // Relative multiplier; absolute default accuracy for ARMA3 is 0.25
+	_accuracy = 0.5; // Relative multiplier; absolute default accuracy for ARMA3 is 0.25
 }
 else
 {

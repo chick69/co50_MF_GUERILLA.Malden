@@ -152,7 +152,7 @@ if (["A3W_survivalSystem"] call isConfigOn) then
 	[] execVM "client\functions\createLegendMarkers.sqf";
 };
 
-{_x setMarkerAlpha 0} foreach ["Spawn1","Spawn2","Spawn3","Spawn4","Spawn5","Spawn6","Spawn7","Spawn8","Spawn9","Spawn10"];
+{_x setMarkerAlpha 0} foreach ["Spawn1","Spawn2","Spawn3","Spawn4","Spawn5","Spawn6","Spawn7","Spawn8","Spawn9","Spawn10","Spawn11"];
 
 A3W_clientSetupComplete = compileFinal "true";
 

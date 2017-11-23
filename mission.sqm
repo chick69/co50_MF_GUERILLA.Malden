@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=1405;
+		nextID=1406;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=67;
+		nextID=75;
 	};
 	class Camera
 	{
-		pos[]={6931.1714,31.742121,2947.031};
-		dir[]={-0.81734771,-0.083142854,0.57013565};
-		up[]={-0.068193905,0.99653316,0.047568254};
-		aside[]={0.57211339,1.1444354e-007,0.82018471};
+		pos[]={5981.0132,271.27737,9800.9697};
+		dir[]={0.68366772,-0.29587653,0.66715753};
+		up[]={0.21176602,0.95522273,0.20665173};
+		aside[]={0.69842494,2.1565938e-008,-0.71570945};
 	};
 };
 binarizationWanted=0;
@@ -294,7 +294,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=643;
+		items=644;
 		class Item0
 		{
 			dataType="Group";
@@ -326,6 +326,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -336,7 +346,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=875;
@@ -408,6 +418,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -418,7 +438,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=876;
@@ -490,6 +510,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -500,7 +530,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=878;
@@ -572,6 +602,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -582,7 +622,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1373;
@@ -654,6 +694,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -664,7 +714,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1376;
@@ -749,6 +799,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -759,7 +819,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=881;
@@ -832,6 +892,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -842,7 +912,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=882;
@@ -915,6 +985,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -925,7 +1005,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=883;
@@ -998,6 +1078,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1008,7 +1098,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1391;
@@ -1080,6 +1170,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1090,7 +1190,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1392;
@@ -1176,6 +1276,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1186,7 +1296,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=885;
@@ -1259,6 +1369,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1269,7 +1389,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=886;
@@ -1342,6 +1462,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1352,7 +1482,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=887;
@@ -1425,6 +1555,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1435,7 +1575,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1382;
@@ -1508,6 +1648,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1518,7 +1668,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1383;
@@ -1605,6 +1755,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1615,7 +1775,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=889;
@@ -1687,6 +1847,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1697,7 +1867,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=890;
@@ -1769,6 +1939,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1779,7 +1959,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=891;
@@ -1851,6 +2031,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1861,7 +2051,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1394;
@@ -1933,6 +2123,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -1943,7 +2143,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1395;
@@ -2028,6 +2228,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2038,7 +2248,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=893;
@@ -2110,6 +2320,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2120,7 +2340,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=895;
@@ -2192,6 +2412,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2202,7 +2432,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=896;
@@ -2274,6 +2504,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2284,7 +2524,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1372;
@@ -2357,6 +2597,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2367,7 +2617,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1388;
@@ -2439,6 +2689,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2449,7 +2709,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1389;
@@ -2534,6 +2794,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2544,7 +2814,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=897;
@@ -2616,6 +2886,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2626,7 +2906,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=898;
@@ -2698,6 +2978,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2708,7 +2998,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=899;
@@ -2780,6 +3070,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2790,7 +3090,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1403;
@@ -2862,6 +3162,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2872,7 +3182,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1404;
@@ -2957,6 +3267,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -2967,7 +3287,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=901;
@@ -3039,6 +3359,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3049,7 +3379,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=902;
@@ -3121,6 +3451,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3131,7 +3471,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=904;
@@ -3203,6 +3543,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3213,7 +3563,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1397;
@@ -3285,6 +3635,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3295,7 +3655,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1398;
@@ -3380,6 +3740,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3390,7 +3760,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=905;
@@ -3462,6 +3832,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3472,7 +3852,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=906;
@@ -3544,6 +3924,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3554,7 +3944,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=907;
@@ -3626,6 +4016,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3636,7 +4036,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1400;
@@ -3708,6 +4108,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3718,7 +4128,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1401;
@@ -3803,6 +4213,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3813,7 +4233,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=909;
@@ -3885,6 +4305,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3895,7 +4325,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=910;
@@ -3967,6 +4397,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -3977,7 +4417,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=912;
@@ -4049,6 +4489,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4059,7 +4509,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1385;
@@ -4132,6 +4582,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4142,7 +4602,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1386;
@@ -4227,6 +4687,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4237,7 +4707,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=913;
@@ -4309,6 +4779,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4319,7 +4799,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=915;
@@ -4391,6 +4871,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4401,7 +4891,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=916;
@@ -4474,6 +4964,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4484,7 +4984,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1378;
@@ -4557,6 +5057,16 @@ class Mission
 							{
 								typeName="U_I_G_resistanceLeader_F";
 								isBackpack=0;
+								class MagazineCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="9Rnd_45ACP_Mag";
+										count=2;
+										ammoLeft=9;
+									};
+								};
 								class ItemCargo
 								{
 									items=1;
@@ -4567,7 +5077,7 @@ class Mission
 									};
 								};
 							};
-							map="ItemMap";
+							watch="ItemWatch";
 						};
 					};
 					id=1380;
@@ -10603,7 +11113,7 @@ class Mission
 					};
 					id=678;
 					type="Land_LampAirport_F";
-					atlOffset=5.6350627;
+					atlOffset=3.7780581;
 				};
 				class Item92
 				{
@@ -12654,7 +13164,7 @@ class Mission
 					};
 					id=792;
 					type="Land_Mil_WallBig_4m_battered_F";
-					atlOffset=8.6534462;
+					atlOffset=5.9727879;
 				};
 				class Item206
 				{
@@ -12672,7 +13182,7 @@ class Mission
 					};
 					id=793;
 					type="Land_Mil_WallBig_4m_battered_F";
-					atlOffset=3.9664211;
+					atlOffset=1.3042889;
 				};
 				class Item207
 				{
@@ -12719,14 +13229,14 @@ class Mission
 						angles[]={0,2.251502,0};
 					};
 					side="Empty";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						init="[this] call A3W_fnc_setupMissionObject";
 					};
 					id=796;
 					type="Land_Mil_WallBig_4m_battered_F";
-					atlOffset=0.77263069;
+					atlOffset=0.23471069;
 				};
 				class Item210
 				{
@@ -12798,7 +13308,7 @@ class Mission
 					};
 					id=800;
 					type="Land_Mil_WallBig_4m_battered_F";
-					atlOffset=10.128933;
+					atlOffset=0.75951004;
 				};
 				class Item214
 				{
@@ -13133,14 +13643,14 @@ class Mission
 						angles[]={2.4650251e-005,3.2463434,7.1118079e-006};
 					};
 					side="Empty";
-					flags=1;
+					flags=5;
 					class Attributes
 					{
 						init="[this] call A3W_fnc_setupMissionObject";
 					};
 					id=819;
 					type="Land_Mil_WallBig_4m_battered_F";
-					atlOffset=4.5727196;
+					atlOffset=0.21087265;
 				};
 				class Item233
 				{
@@ -17152,14 +17662,14 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={7771.1128,63.810001,3254.8989};
+				position[]={7771.6636,63.81004,3256.0806};
 				angles[]={0,2.8027196,0};
 			};
 			areaSize[]={100,0,250};
 			flags=1;
 			id=1192;
 			type="ModuleSector_F";
-			atlOffset=57.52;
+			atlOffset=57.520039;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20805,7 +21315,7 @@ class Mission
 		class Item587
 		{
 			dataType="Trigger";
-			position[]={7038.3857,115.71117,7137.4849};
+			position[]={7038.5728,115.68265,7135.6875};
 			class Attributes
 			{
 				sizeA=180;
@@ -20816,7 +21326,7 @@ class Mission
 			};
 			id=1274;
 			type="EmptyDetectorAreaR250";
-			atlOffset=35.77005;
+			atlOffset=35.770081;
 		};
 		class Item588
 		{
@@ -21225,14 +21735,14 @@ class Mission
 		class Item596
 		{
 			dataType="Marker";
-			position[]={7038.6064,2.0056152,7137.5444};
+			position[]={7038.1655,1.9744873,7138.3496};
 			name="inf_fia_6";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=180;
 			b=180;
 			id=1285;
-			atlOffset=-77.936264;
+			atlOffset=-77.968613;
 		};
 		class Item597
 		{
@@ -23175,14 +23685,28 @@ class Mission
 		class Item642
 		{
 			dataType="Marker";
-			position[]={5537.0654,12.796143,11247.643};
+			position[]={5538.7051,12.706299,11248.463};
 			name="inf_fia_11";
 			markerType="ELLIPSE";
 			type="ellipse";
 			a=200;
 			b=200;
 			id=1370;
-			atlOffset=-58.67173;
+			atlOffset=-58.750648;
+		};
+		class Item643
+		{
+			dataType="Marker";
+			position[]={8527.3936,0,8105.9629};
+			name="Spawn11";
+			markerType="ELLIPSE";
+			type="rectangle";
+			colorName="ColorBlue";
+			a=30;
+			b=30;
+			angle=300.96295;
+			id=1405;
+			atlOffset=-9.3843575;
 		};
 	};
 	class Connections
